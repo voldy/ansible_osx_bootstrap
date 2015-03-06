@@ -5,7 +5,7 @@
    - homebrew/binary
 
  homebrew_packages:
-  - { name: brew-cask }
+  - { name: caskroom/cask/brew-cask }
   - { name: tmux }
   - { name: tree }
   - { name: pstree }
