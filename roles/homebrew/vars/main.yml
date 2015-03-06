@@ -3,3 +3,18 @@
    - caskroom/versions
    - homebrew/versions
    - homebrew/binary
+
+ homebrew_packages:
+  - { name: brew-cask }
+  - { name: tmux }
+  - { name: tree }
+  - { name: pstree }
+  - { name: zsh }
+  - { name: zsh-completions }
+  - { name: jq }
+  - { name: coreutils }
+  - { name: nmap }
+  - { name: heroku-toolbelt }
+  - { name: vim }
+  - { name: wget,
+      install_options: enable-iri }
