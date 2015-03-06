@@ -5,4 +5,4 @@
   sudo: no
   roles:
     - homebrew
-    - homebrew-cask
+    # - homebrew-cask
