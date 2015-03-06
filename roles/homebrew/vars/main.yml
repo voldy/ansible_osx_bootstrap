@@ -1,11 +1,12 @@
 ---
  homebrew_taps:
+   - caskroom/cask
    - caskroom/versions
    - homebrew/versions
    - homebrew/binary
 
  homebrew_packages:
-  - { name: caskroom/cask/brew-cask }
+  - { name: brew-cask }
   - { name: tmux }
   - { name: tree }
   - { name: pstree }
