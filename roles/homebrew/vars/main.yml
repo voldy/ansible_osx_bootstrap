@@ -1,9 +1,9 @@
 ---
  homebrew_taps:
-   - caskroom/cask
    - caskroom/versions
    - homebrew/versions
    - homebrew/binary
+   - caskroom/cask
 
  homebrew_packages:
   - { name: brew-cask }

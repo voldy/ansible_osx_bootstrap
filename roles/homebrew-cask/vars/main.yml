@@ -1,0 +1,31 @@
+---
+ homebrew_cask_packages:
+  - alfred
+  - appcleaner
+  - atom
+  # - bettertouchtool
+  - dropbox
+  - evernote
+  - google-chrome
+  - firefox
+  - opera
+  # - sublime-text3
+  - iterm2
+  # - virtualbox
+  # - vagrant
+  # - sourcetree
+  # - dash
+  # - sequel-pro
+  # - mysqlworkbench
+  - skype
+  # - skitch
+  - imageoptim
+  - vlc
+  # - libreoffice
+  - java
+  - the-unarchiver
+  # - qlstephen
+  # - qlmarkdown
+  # - quicklook-csv
+  # - quicklook-json
+  # - qlcolorcode
