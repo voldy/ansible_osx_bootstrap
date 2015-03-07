@@ -11,12 +11,12 @@
   - opera
   # - sublime-text3
   - iterm2
-  # - virtualbox
-  # - vagrant
-  # - sourcetree
+  - virtualbox
+  - vagrant
+  - sourcetree
   # - dash
   # - sequel-pro
-  # - mysqlworkbench
+  - mysqlworkbench
   - skype
   # - skitch
   - imageoptim
@@ -29,3 +29,12 @@
   # - quicklook-csv
   # - quicklook-json
   # - qlcolorcode
+  - rubymine
+  - sketch
+  - spotify
+  - seil
+  - mailbox
+  - fluid
+  - teamviewer
+  - cheatsheet
+  - macvim

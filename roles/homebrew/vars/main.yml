@@ -7,11 +7,15 @@
 
  homebrew_packages:
   - { name: brew-cask }
+  - { name: git }
   - { name: tmux }
   - { name: tree }
   - { name: pstree }
   - { name: zsh }
   - { name: zsh-completions }
+  - { name: rbenv }
+  - { name: ruby-build }
+  - { name: ack }
   - { name: jq }
   - { name: coreutils }
   - { name: nmap }
@@ -19,3 +23,16 @@
   - { name: vim }
   - { name: wget,
       install_options: enable-iri }
+  - { name: imagemagick }
+  - { name: postgresql,
+      install_options: LC_ALL="en_US.UTF-8" LANG="en_US.UTF-8" }
+  - { name: redis }
+  - { name: rabbitmq }
+  - { name: couchdb }
+  - { name: elasticsearch }
+  - { name: nodejs }
+  - { name: openssl }
+  - { name: qt }
+  - { name: phantomjs }
+  - { name: chromedriver }
+  - { name: selenium-server-standalone }
