@@ -10,6 +10,7 @@
   - { name: git }
   - { name: tmux }
   - { name: tree }
+  - { name: python }
   - { name: pstree }
   - { name: zsh }
   - { name: zsh-completions }
