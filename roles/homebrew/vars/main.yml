@@ -37,3 +37,4 @@
   - { name: phantomjs }
   - { name: chromedriver }
   - { name: selenium-server-standalone }
+  - { name: watchman }
