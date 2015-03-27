@@ -16,6 +16,7 @@
   - { name: zsh-completions }
   - { name: rbenv }
   - { name: ruby-build }
+  - { name: direnv }
   - { name: ack }
   - { name: jq }
   - { name: coreutils }

@@ -3,5 +3,6 @@
 ## Usage
 
 ```
+./bootstrap.sh
 ansible-playbook main.yml
 ```
