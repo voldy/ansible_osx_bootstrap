@@ -1,0 +1,10 @@
+---
+ - name: Install packages required at bonusbox
+   homebrew:
+     name: "{{ item.name }}"
+     state: latest
+     install_options: "{{ item.install_options|default() }}"
+   with_items: homebrew_packages
+
+ - name: install boto for aws cli
+   pip: name=boto

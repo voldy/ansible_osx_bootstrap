@@ -1,0 +1,14 @@
+---
+homebrew_packages:
+  - { name: postgresql }
+  - { name: couchdb }
+  - { name: qt }
+  - { name: chromedriver }
+  - { name: selenium-server-standalone }
+  - { name: nodejs }
+  - { name: phantomjs }
+  - { name: rabbitmq }
+  - { name: redis }
+  - { name: elasticsearch }
+  - { name: awscli }
+
