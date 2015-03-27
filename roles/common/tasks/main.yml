@@ -10,9 +10,6 @@
      state: present
    with_items: homebrew_taps
 
- - name: install brew cask
-   homebrew: name=brew-cask state=latest
-
  - name: Install java
    homebrew_cask: name=java state=present
 

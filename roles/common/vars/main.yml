@@ -1,9 +1,7 @@
 ---
 homebrew_taps:
-  - caskroom/versions
   - homebrew/versions
   - homebrew/binary
-  - caskroom/cask
 
 homebrew_packages:
   - { name: git }
