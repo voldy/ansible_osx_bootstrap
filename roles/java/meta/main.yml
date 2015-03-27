@@ -1,0 +1,8 @@
+---
+dependencies:
+  - role: homebrew
+    homebrew_taps:
+      - caskroom/versions
+      - caskroom/cask
+    homebrew_packages:
+      - { name: brew-cask }
