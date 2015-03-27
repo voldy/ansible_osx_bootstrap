@@ -3,15 +3,14 @@
    homebrew:
      update_homebrew: yes
      upgrade_all: yes
+   tags: homebrew
 
  - name: brew tap
    homebrew_tap:
      tap: "{{ item }}"
      state: present
    with_items: homebrew_taps
-
- - name: Install java
-   homebrew_cask: name=java state=present
+   tags: homebrew
 
  - name: Install packages
    homebrew:
@@ -19,3 +18,4 @@
      state: latest
      install_options: "{{ item.install_options|default() }}"
    with_items: homebrew_packages
+   tags: homebrew   

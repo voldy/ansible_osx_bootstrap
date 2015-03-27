@@ -1,3 +1,4 @@
 ---
 - name: Install java
   homebrew_cask: name=java state=present
+  tags: java

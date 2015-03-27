@@ -1,8 +1,9 @@
 ---
 dependencies:
   - role: homebrew
+    tags: java
     homebrew_taps:
       - caskroom/versions
       - caskroom/cask
     homebrew_packages:
-      - { name: brew-cask }
+      - { name: brew-cask, tags: java }
