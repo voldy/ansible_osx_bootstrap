@@ -1,0 +1,24 @@
+---
+homebrew_taps:
+  - caskroom/versions
+  - homebrew/versions
+  - homebrew/binary
+  - caskroom/cask
+
+homebrew_packages:
+  - { name: git }
+  - { name: tmux }
+  - { name: tree }
+  - { name: pkgconfig }
+  - { name: python }
+  - { name: pstree }
+  - { name: ack }
+  - { name: gpg }
+  - { name: jq }
+  - { name: coreutils }
+  - { name: nmap }
+  - { name: heroku-toolbelt }
+  - { name: wget,
+      install_options: enable-iri }
+  - { name: openssl }
+  - { name: llvm }
