@@ -29,7 +29,7 @@
   - { name: postgresql,
       install_options: LC_ALL="en_US.UTF-8" LANG="en_US.UTF-8" }
   - { name: redis }
-  - { name: elasticsearch }
+  # - { name: elasticsearch }
   - { name: nodejs }
   - { name: openssl }
   - { name: qt }
